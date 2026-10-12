@@ -30,7 +30,7 @@ class ValidationTest extends TestCase
     /**
      * @return array
      */
-    public function parseRuleProvider()
+    public static function parseRuleProvider()
     {
         return [
             [

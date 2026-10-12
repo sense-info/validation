@@ -15,6 +15,10 @@ trait DateUtilsTrait
      */
     protected function isValidDate(string $date): bool
     {
+        if (str_contains($date, ',')) {
+            return false;
+        }
+
         return (strtotime($date) !== false);
     }
 

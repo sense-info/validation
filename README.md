@@ -19,7 +19,7 @@ PHP Standalone library for validating data. Inspired by `Illuminate\Validation` 
 
 ## Requirements
 
-* PHP 7.0 or higher
+* PHP 8.5 or higher
 * Composer for installation
 
 ## Quick Start
